@@ -5,6 +5,7 @@ Alice and Bob are playing a game a bit like Go Fish, although neither of them is
 Download the files and keep them in the same folder in the UNIX environment. Call "make game" and then "./game <text file> <text file>" to run the game. It will output all the matches that Alice and Bob make, then print out the remainder of their held cards. For testing purposes, call "make tests" and then "./tests" to run all the tests on functions of cards.cpp.
 
 # **FILES:**  
+* "Makefile" is the makefile to make the executables game and tests.
 * "cards.cpp" contains the custom BST data structure used in the game.
 * "cards.h" is the header file of cards.cpp.
 * "main.cpp" is the actual implementation of the game using functions from cards.cpp.
